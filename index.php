@@ -171,12 +171,12 @@
             <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Tél: 06 42 16 43 20</p>
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email: dono.mart@live.fr</p>
             <br>
-            <form id="contactForm" action="/contact.php" method="POST">
+            <form id="contactForm" action="./contact.php" method="POST">
                 <p><input class="w3-input w3-border" type="text" placeholder="Nom" required="" name="name"></p>
                 <p><input class="w3-input w3-border" type="email" placeholder="Email" required="" name="email"></p>
                 <p><input class="w3-input w3-border" type="text" placeholder="Sujet" required="" name="subject"></p>
                 <!--<p><input class="w3-input w3-border" type="text" placeholder="Message" required="" name="message"></p>-->
-                <p><textarea form="contactform" placeholder="Message" style="box-sizing: border-box; width: 100%; resize: vertical;"></textarea></p>
+                <p><textarea rows="5" form="contactForm" placeholder="Message" style="box-sizing: border-box; width: 100%; resize: vertical;" required="" name="message"></textarea></p>
                 <p>
                     <button class="w3-button w3-black" type="submit">
                         <i class="fa fa-paper-plane"></i> Envoyer</button>

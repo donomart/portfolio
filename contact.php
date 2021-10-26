@@ -1,6 +1,6 @@
 <?php
 if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['subject']) || empty($_POST['message'])) {
-    header('location: index.php');
+    header('location: ./');
     exit();
 }
 ?>
