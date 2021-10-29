@@ -164,9 +164,9 @@
 
 
     <!-- Contact Section -->
-    <div class="w3-container " style="padding:128px 16px" id="contact">
+    <div class="w3-container" id="contact" style="padding:128px 16px; max-width: 900px; margin: 0 auto;">
         <h3 class="w3-center">Me contacter</h3>
-        <div style="margin-top:48px">
+        <div style="margin-top:48px; ">
             <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> 06500 Menton, France</p>
             <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Tél: 06 42 16 43 20</p>
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email: dono.mart@live.fr</p>
@@ -177,7 +177,7 @@
                 <p><input class="w3-input w3-border" type="text" placeholder="Sujet" required="" name="subject"></p>
                 <!--<p><input class="w3-input w3-border" type="text" placeholder="Message" required="" name="message"></p>-->
                 <p><textarea rows="5" form="contactForm" placeholder="Message" style="box-sizing: border-box; width: 100%; resize: vertical;" required="" name="message"></textarea></p>
-                <p>
+                <p class="w3-center">
                     <button class="w3-button w3-black" type="submit">
                         <i class="fa fa-paper-plane"></i> Envoyer</button>
                 </p>
